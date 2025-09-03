@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
     },
     {
       icon: <Mail size={20} />,
-      href: 'mailto:bret@example.com',
+      href: 'mailto:abs0843338@yahoo.com',
       label: 'Email'
     }
   ];

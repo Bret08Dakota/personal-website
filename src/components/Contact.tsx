@@ -29,8 +29,8 @@ const Contact: React.FC = () => {
     {
       icon: <Mail size={24} />,
       title: 'Email',
-      value: 'bret@example.com',
-      link: 'mailto:bret@example.com'
+      value: 'abs0843338@yahoo.com',
+      link: 'mailto:abs0843338@yahoo.com'
     },
     {
       icon: <Phone size={24} />,
@@ -41,8 +41,8 @@ const Contact: React.FC = () => {
     {
       icon: <MapPin size={24} />,
       title: 'Location',
-      value: 'Your City, State',
-      link: '#'
+      value: 'Lewis Center, Ohio',
+      link: 'https://maps.google.com/maps?q=Lewis+Center,+OH'
     }
   ];
 

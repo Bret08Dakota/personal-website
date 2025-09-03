@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
+import { ArrowDown, Github, Linkedin, Mail, MapPin } from 'lucide-react';
 import './Hero.css';
 
 const Hero: React.FC = () => {
@@ -67,7 +67,7 @@ const Hero: React.FC = () => {
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <Linkedin size={24} />
               </a>
-              <a href="mailto:bret@example.com" aria-label="Email">
+              <a href="mailto:abs0843338@yahoo.com" aria-label="Email">
                 <Mail size={24} />
               </a>
             </motion.div>
@@ -80,6 +80,10 @@ const Hero: React.FC = () => {
             transition={{ delay: 0.5, duration: 0.8 }}
           >
             <div className="code-window">
+              <span className="flex items-center">
+                <MapPin className="mr-2 h-4 w-4" />
+                <span>Lewis Center, Ohio</span>
+              </span>
               <div className="window-header">
                 <div className="window-controls">
                   <span className="control red"></span>
